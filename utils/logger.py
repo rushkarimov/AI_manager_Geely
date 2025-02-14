@@ -1,5 +1,6 @@
 import logging
 
+
 def setup_logger(log_file: str = "bot.log") -> logging.Logger:
     """
     Настраивает и возвращает объект логгера.
